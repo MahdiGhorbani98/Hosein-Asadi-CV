@@ -186,7 +186,6 @@ ul li {
 
 @media(max-width : 600px){
     .workSamples {
-
         justify-content: center;
     }
     .logo{
@@ -195,7 +194,7 @@ ul li {
     }
 
     h1{
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .personalInfo__detail{
@@ -261,7 +260,7 @@ ul li {
     }
 
     h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .workSamples div {
         margin-right: 20px;
