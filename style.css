@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'GeosansLight', sans-serif;
+    line-height: 1.5;
+}
+
+body{
+    padding: 60px 170px ;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 80px;
+}
+
+
+
+
+h1{
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+h3{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.sections{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 30px;
+}
+
+.company1{
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.company1 strong{
+    font-size: 18px;
+}
+
+.company{
+    width: 80%;
+}
+
+.captionCompany{
+    margin-bottom: 10px;
+}
+
+.workSamples{
+    margin-left: 30px;
+    display: flex
+}
+
+.lastWorkSamples{
+    margin-left: 30px;
+}
+
+.workSamples div {
+    margin-right: 65px;
+}
+
+
+.date{
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+    width: 30% !important
+}
+
+.sections .marginer{
+    width: 20%;
+}
+.sections p,.likeP{
+    width: 80%;
+}
+
+.personalInfo__detail{
+    width: 100%;
+}
+.personalInfo__detail p{
+    display: inline;
+}
+.personalInfo__detail > *{
+    padding: 0 10px 0 10px;
+    border-right: 2px solid #000;
+}
+
+.personalInfo__detail :first-child {
+    padding-left: 0 !important
+}
+.personalInfo__detail :last-child {
+    border-right: none !important;
+    padding-left: 0 !important
+
+}
+
+.h1_details{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline rgb(255, 81, 0);
+}
+
+.icon{
+    width: 13px;
+    height: 13px;
+}
+
+span {
+    background-color: black;
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.lastSection {
+    border: none;
+}
+
+.lastSection ul li {
+    margin-bottom: 0;
+}
+
+.lastSection ul p  {
+    margin-bottom: 10px;
+}
+
+.lastWorkSamples  li {
+    margin-bottom: 0;
+    background-color: #eee;
+    display: inline;
+}
+.lastWorkSamples  p {
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+@media (max-width : 1025px){
+    body{
+        padding: 60px 0px ;
+        margin: 0 auto;
+        display: block;
+        width: 80%;
+    }
+}
+
+@media(max-width : 769px){
+    body{
+        padding: 60px 0px ;
+        margin: 0 auto;
+        display: block;
+        width: 95%;
+    }
+
+}
+
+@media(max-width : 426px){
+    .logo{
+
+        margin-right: 25px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .personalInfo__detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .personalInfo__detail > *{
+        padding: 0 0 0 0;
+        border-right: none;
+    }
+
+    .sections{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sections__logo{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .sections .marginer{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .likeP{
+        width: 100%;
+    }
+
+    .company1{
+        flex-direction: column-reverse;
+        margin-bottom: 25px;
+    }
+
+    .date {
+        text-align: center;
+        font-weight: bold;
+        width: 100% !important;
+        color: gray;
+    }
+    .captionCompany{
+        width: 100% !important;
+        text-align: center;
+    }
+    .company{
+        margin: 0 auto;
+    }
+    .company1 strong{
+        display: block;
+        text-align: center;
+    }
+    .lastSection ul{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .caption_works{
+        width: 100% !important
+    }
+}
+
+@media(max-width : 376px){
+    .logo{
+        margin-right: 15px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+    .workSamples div {
+        margin-right: 35px;
+    }
+}
+
+@media(max-width : 321px){
+
+    .sections{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .logo{
+        margin-right: 0;
+    }
+    body{
+        padding: 20px 0px ;
+        width: 98%;
+    }
+    .personalInfo__detail {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .workSamples div {
+        margin-right: 30px;
+    }
+
+
+}
