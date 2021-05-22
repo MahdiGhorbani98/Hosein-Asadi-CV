@@ -184,7 +184,11 @@ ul li {
 
 }
 
-@media(max-width : 426px){
+@media(max-width : 600px){
+    .workSamples {
+
+        justify-content: center;
+    }
     .logo{
 
         margin-right: 25px;
@@ -260,12 +264,27 @@ ul li {
         font-size: 35px;
     }
     .workSamples div {
-        margin-right: 35px;
+        margin-right: 20px;
     }
+    .personalInfo__detail :first-child {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width : 345px){
+    .personalInfo__detail  {
+        position: relative;
+        left: -20px;
+    }
+
 }
 
 @media(max-width : 321px){
-
+    .personalInfo__detail  {
+        position: relative;
+        left: 0;
+    }
     .sections{
         flex-direction: column;
         align-items: center;
