@@ -216,7 +216,7 @@ ul li {
     }
     .sections .marginer{
         width: 100%;
-        text-align: center;
+        text-align: left;
         margin-bottom: 15px;
     }
     .likeP{
@@ -251,6 +251,9 @@ ul li {
     }
     .caption_works{
         width: 100% !important
+    }
+    h3{
+        padding-left: 30px;
     }
 }
 
